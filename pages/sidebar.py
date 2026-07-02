@@ -63,7 +63,6 @@ ROLE_LABELS = {
     "warga": "Warga",
 }
 
-
 class AppShell(tk.Frame):
     def __init__(self, parent, app, active_key, title):
         super().__init__(parent, bg="#f1f5f9")
@@ -194,7 +193,6 @@ class AppShell(tk.Frame):
 
 
 def stat_card(parent, title, value, color="#2563eb", icon="📊"):
-    """Komponen kartu statistik kecil, dipakai berulang di semua dashboard."""
     card = tk.Frame(parent, bg="white", highlightbackground="#e2e8f0",
                      highlightthickness=1)
     inner = tk.Frame(card, bg="white")
