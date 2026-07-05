@@ -5,7 +5,6 @@ from data.store import store
 from pages.sidebar import AppShell
 from pages.widgets import make_table, toolbar, FormDialog, confirm_delete, show_success
 
-
 class AdminVillagesPage(tk.Frame):
     def __init__(self, parent, app):
         super().__init__(parent, bg="#f1f5f9")
